@@ -1,0 +1,128 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.clear_space{
+    clear: both;
+}
+body{
+    background-color: aquamarine;
+    
+}
+a{
+    text-decoration: none;
+}
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+  
+input[type="button"]:hover{
+    color: red;
+}
+  
+input[type="button"] {
+    border: none;
+    padding: 0.3rem;
+    background-color: black;
+    color: white;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box_1{
+    background-color: bisque;
+    padding: 2rem;
+    overflow-y: auto;
+    border-right-style: solid;
+    border-width: 1rem;
+    border-color: green;
+}
+.box_1 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+
+}
+.box_1 p{
+    /* text-indent: 2rem; */
+    white-space: normal;
+    text-align: justify;
+    word-spacing: 1rem;
+}
+.box_2{
+    margin-top: 2rem;
+    background-color: yellowgreen;
+    padding: 2rem;
+    border-left-style: solid;
+    border-radius: 1rem;
+    border-width: 2rem;
+    border-color:tomato;
+}
+
+.category{
+    border: 1px solid black;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.category h2{
+    text-align: center;
+}
+.category li{
+    padding-bottom: 0.5rem;
+    border-bottom: dotted 1px red;
+    list-style-image:url("./a.png");
+}
+
+.my_form{
+    margin: auto;
+    padding: 20px;
+    
+}
+.form_control{
+    padding: .5rem;
+}
+.form_control label{
+    display: block;
+}
+
+.form_control input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    padding:1rem;
+    /* margin: 1rem; */
+    box-sizing: border-box;
+}
+.main_content{
+    float: left;
+    /* padding: 1rem; */
+    width: 70%;
+    padding: .3rem;
+    box-sizing: border-box;
+    
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    color: thistle;
+    padding: .3rem;
+}
